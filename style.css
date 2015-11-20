@@ -1,0 +1,15 @@
+.pokemon img {
+ display: inline-block;
+}
+
+.pokemon div {
+ display:inline-block;
+}
+
+.pokemon h4 {
+ margin-left:20px;
+}
+
+.pokemon {
+border-top:1px solid black;
+}
