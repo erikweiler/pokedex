@@ -13,3 +13,8 @@
 .pokemon {
 border-top:1px solid black;
 }
+
+h1 {
+color: yellow;
+text-align:center;
+}
