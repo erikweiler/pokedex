@@ -2,6 +2,11 @@
 	<head>
 		<title>Pokedex</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script>
+			function myFunction() {
+				if(this.parentNode.getElementsByTagName('ul')[0].style.display!='block'){ this.parentNode.getElementsByTagName('ul')[0].style.display='block'} else {this.parentNode.getElementsByTagName('ul')[0].style.display='none'}
+			}
+			</script>
 	</head>
 	
 	<body>
@@ -11,7 +16,7 @@
 		<img src="Pikachu-the-ultimate-pokemon.jpg" width="90" length="90"/> 
 
 		<div>
-			<button onclick="if(this.parentNode.getElementsByTagName('ul')[0].style.display!='block'){ this.parentNode.getElementsByTagName('ul')[0].style.display='block'} else {this.parentNode.getElementsByTagName('ul')[0].style.display='none'}">Pikachu</button>
+			<button onclick="myFunction()">Pikachu</button>
 			
 			<ul style="display:none">
 				<li>Der Name des Pokemons ist Pikachu</li>
