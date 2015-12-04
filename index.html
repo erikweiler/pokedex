@@ -11,7 +11,7 @@
 		<img src="Pikachu-the-ultimate-pokemon.jpg" width="90" length="90"/> 
 
 		<div>
-			<button onclick="this.parentNode.getElementsByTagName('ul')[0].style.display='block'">Pikachu</button>
+			<button onclick="if(this.parentNode.getElementsByTagName('ul')[0].style.display!='block') this.parentNode.getElementsByTagName('ul')[0].style.display='block' else this.parentNode.getElementsByTagName('ul')[0].style.display='none'">Pikachu</button>
 			
 			<ul style="display:none">
 				<li>Der Name des Pokemons ist Pikachu</li>
