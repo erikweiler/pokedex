@@ -4,7 +4,7 @@
 
 .pokemon div {
  display:inline-block;
- color: red;
+ background-color: red;
 }
 
 .pokemon h4 {
