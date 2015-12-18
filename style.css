@@ -4,11 +4,11 @@
 
 .pokemon div {
  display:inline-block;
+ color: red;
 }
 
 .pokemon h4 {
  margin-left:20px;
- color:Red
 }
 
 .pokemon {
@@ -19,6 +19,8 @@ h1 {
 color: black;
 text-align:center;
 }
+
+
 
 
 
