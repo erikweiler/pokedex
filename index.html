@@ -3,8 +3,13 @@
 		<title>Pokedex</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script>
+<<<<<<< HEAD
 			function myFunction() {
 				if(this.parentNode.getElementsByTagName('ul')[0].style.display!='block'){ this.parentNode.getElementsByTagName('ul')[0].style.display='block'} else {this.parentNode.getElementsByTagName('ul')[0].style.display='none'}
+=======
+			function myFunction(objekt) {
+				if(objekt.parentNode.getElementsByTagName('ul')[0].style.display=='none'){ objekt.parentNode.getElementsByTagName('ul')[0].style.display='block'} else {objekt.parentNode.getElementsByTagName('ul')[0].style.display='none'}
+>>>>>>> 56ef90ab8e92051b244786505d55631f8b9a26bf
 			}
 			</script>
 	</head>
@@ -16,7 +21,7 @@
 		<img src="Pikachu-the-ultimate-pokemon.jpg" width="90" length="90"/> 
 
 		<div>
-			<button onclick="myFunction()">Pikachu</button>
+			<button onclick="myFunction(this)">Pikachu</button>
 			
 			<ul style="display:none">
 				<li>Der Name des Pokemons ist Pikachu</li>
@@ -30,7 +35,7 @@
 		<img src="Shiggy-ultimate.png" width="90" length="90" />
 		
 		<div>
-			<button onclick="this.parentNode.getElementsByTagName('ul')[0].style.display='block'">Shiggy</button>
+			<button onclick="myFunction(this)">Pikachu</button>
 			
 			<ul style="display:none">
 				<li>Der Name des Pokemons ist Shiggy</li>
