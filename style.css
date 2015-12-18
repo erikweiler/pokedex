@@ -4,7 +4,7 @@
 
 .pokemon div {
  display:inline-block;
- background-color: red;
+ background-color:red;
 }
 
 .pokemon h4 {
@@ -13,13 +13,19 @@
 
 .pokemon {
 border-top:1px solid black;
+background-color:red;
 }
 
 h1 {
 color: black;
 text-align:center;
+background-color:yellow;
+margin:0px;
 }
 
+body {
+    margin:0px;
+}
 
 
 
